@@ -1,6 +1,6 @@
 # Breast Cancer Classification
 
-This project aims to classify breast tumors as benign or malignant using the **Breast Cancer Wisconsin (Diagnostic) Dataset**. The model used is **Logistic Regression**.
+This simple project aims to classify breast tumors as benign or malignant using the Breast Cancer Wisconsin (Diagnostic) Dataset, using the Logistic Regression model.
 
 ---
 
@@ -19,5 +19,6 @@ Dataset used: https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset
 
 - Data preprocessing: converting `diagnosis` to numeric (`M=1, B=0`)
 - Train-test split: 80% training, 20% testing
+- - Feature scaling: standardization using `StandardScaler`
 - Model: Logistic Regression (`max_iter=1000`)
 - Performance metrics: Accuracy, Precision, Recall, F1-score
